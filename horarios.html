@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        
+        table {
+            box-shadow: 22px 14px 42px -1px rgba(0,0,0,0.79);
+            -webkit-box-shadow: 22px 14px 42px -1px rgba(0,0,0,0.79);
+            -moz-box-shadow: 22px 14px 42px -1px rgba(0,0,0,0.79);
+            border: solid 1px brown;
+        }
+
+        table thead tr {
+            background-color:brown;
+            color: white;
+        }
+
+        table tfoot tr {
+            background-color: lightgray;
+        }
+
+        table tbody tr:nth-child(even) td {
+            background-color: blanchedalmond;
+        }
+        table tbody tr:hover td {
+            background-color: lightgrey;
+            cursor: pointer;
+        }
+        table caption {
+            color: brown;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <img src="img/logo.png" />
+            <ul style="color: white;">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="sobre.html">Sobre nós</a></li>
+                <li><a href="horarios.html">Horários de atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img src="img/logotipo.png"
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <h2>HORARIOS DE ATENDIMENTO</h2>
+                <p>Trabalhamos com horarios especificos para cada tratamento, assim podemos oferecer uma maior organização 
+                    para nossos profissionais e clientes. Hoje contamos com 4 profissionais em nossa clinica, cada um com sua atividade como:
+                    extração de siso, canal, abturação e aparelho.<br>
+                    Aqui abaixo você pode conferir os horarios de cada atividade.
+                </p>
+
+                <table align="center" width="400px" summary="Tabela de horarios" />
+                    <caption>HORARIOS DE ATENDIMENTO</caption>
+                    <thead>
+                        <tr>
+                            <th align="center" >Serviços</th> 
+                            <th align="center" >Segunda a sexta</th>
+                            <th align="center" >Sabado</th>
+                            <th align="center" >Feriados</th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td>Aparelho</td>
+                            <td>09h-17h</td>
+                            <td>09h-12h</td>
+                            <td>09h-12h</td>
+                            
+                        </tr>
+
+                        <tr>
+                            <td>Abturação</td>
+                            <td>09h-17h</td>
+                            <td>09h-12h</td>
+                            <td>09h-12h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Canal</td>
+                            <td>09h-17h</td>
+                            <td>09h-12h</td>
+                            <td>Fechado</td>
+                        </tr>
+
+                        <tr>
+                            <td>Extração de siso</td>
+                            <td>09h-17h</td>
+                            <td>Fechado</td>
+                            <td>Fechado</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <font>Contato:(15)99700-0000<br>instagram:@clinica_dental</font>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
